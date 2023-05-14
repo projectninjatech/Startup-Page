@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+}
+
+.search-engine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.search-input {
+    padding: 1.2em; 
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 68, 68);
+    color: white;
+    margin-right: 1em;
+    width: 20%;
+}
+
+.search-btn {
+    background-image: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1.2em;
+    font-size: 1em;
+}
+
+.search-input::placeholder {
+    padding-left: 1em;
+    background-image: url('/icons/google.svg');
+    background-repeat: no-repeat;
+    background-size: 1em;
+    font-size: 1.2em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pnt {
+    background-image: url('/icons/pnt.gif');
+    background-repeat: no-repeat;
+    border: none;
+    height: 12em;
+    width: 28em;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+
+  p {
+    font-size: 1.5em;
+  }
+
+  #link {
+    background-color: rgb(65, 68, 68);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.name {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+}
+
+.apps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  .date-time {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+
+  #clock-icon {
+    background-image: url('/icons/clock.svg');
+    background-repeat: no-repeat;
+    border: none;
+    padding: 2em;
+    margin-right: 0.5em;
+  }
+  
+  #calender-icon {
+    background-image: url('/icons/calender.svg');
+    background-repeat: no-repeat;
+    border: none;
+    padding: 1.5em;
+    margin-right: 0.5em;
+  }
+
+  #time {
+    margin-right: 1em;
+  }
